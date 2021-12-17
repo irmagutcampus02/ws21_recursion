@@ -7,10 +7,6 @@ public class PrintNumbers {
     }
 
     public static void fromNToZero(int n) {
-        if (n < 0 ) {
-            return;
-        }
         System.out.println("n = " + n);
-        fromNToZero(n - 1);
     }
 }
